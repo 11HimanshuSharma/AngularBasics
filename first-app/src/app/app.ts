@@ -9,7 +9,8 @@ import { Home } from './home/home';
   template: `
     <app-header></app-header>
     <main>
-    <app-home></app-home>
+      <router-outlet></router-outlet>
+    
 </main>
   `,
   styles: [
